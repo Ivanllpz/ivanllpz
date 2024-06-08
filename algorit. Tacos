@@ -1,0 +1,28 @@
+Algoritmo tacos
+	
+	 Definir taqueria, tacosxdia, total Como Entero
+	 
+	totaltacos = 0
+	
+	
+	Escribir 'numero de taquerias en CDMX:'
+	
+	Leer taquerias
+	
+	
+	para i = 1 Hasta taquerias Con Paso 1 Hacer
+		
+		Escribir 'ingrese la cantidad de tacos vendidos por dia por la taqueria ', i,':'
+		
+		Leer tacosxdia
+		
+		total = total + tacosxdia
+	FinPara
+	
+	
+	
+	Escribir 'tacos vendidos en CDMX por dia es:', total
+	
+	
+	
+	FinAlgoritmo

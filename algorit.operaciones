@@ -1,0 +1,18 @@
+Algoritmo operaciones
+	Definir numero1, numero2, resultado Como Entero
+	
+	Escribir Sin Saltar'ingrese el valor1:';
+	Leer numero1;
+	Escribir Sin Saltar'ingrese el valor2:';
+	Leer numero2;
+	
+	suma <- numero1 + numero2
+	resta <- numero1 - numero2
+	multiplicacion <- numero1 * numero2
+	division <- numero1 / numero2
+	Escribir 'el resultado de la suma es;',suma
+	Escribir 'el resultado de la resta es;',resta
+	Escribir 'el resultado de la multiplicacion es;',multiplicacion
+	Escribir 'el resultado de la division es;',division
+	
+FinAlgoritmo

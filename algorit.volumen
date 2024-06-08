@@ -1,0 +1,12 @@
+Algoritmo volumen
+	Definir valor1, valor2, valor3, resultado Como Real
+	Escribir 'ingresa el valor 1:';
+	Leer valor1;
+	Escribir Sin Saltar'ingresa el valor 2:';
+	Leer valor2
+	Escribir Sin Saltar'ingresa el valor 3:';
+	Leer valor3;
+	
+	vol <- valor1 * valor2 * valor3
+	Escribir 'el resultado del volumen de las caja es:',vol
+FinAlgoritmo

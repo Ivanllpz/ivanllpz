@@ -1,0 +1,5 @@
+Algoritmo volumen_de_una_caja_a_b_y_c
+	Escribir 'valor A,B, Y C'
+	Escribir 'Volumen de A, B, y C'
+	Escribir 'Volumen'
+FinAlgoritmo

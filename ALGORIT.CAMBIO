@@ -1,0 +1,26 @@
+Algoritmo CAMBIO
+	Definir cambios como cadena
+	
+	Definir precio, cambiod, resultado Como Entero
+	Escribir 'total de la compra:';
+	Leer precio;
+	Escribir 'efectivo:';
+	Leer cambiod;
+	
+	Escribir 'tengo cambio?';
+	Leer  cambios
+	
+	resultado<- cambiod - precio
+	
+	segun cambios Hacer
+		'si':
+			Escribir 'tu cambio es de:',resultado
+			
+			Escribir 'gracias por tu compra';
+			
+		'no':
+			Escribir 've a cambiar';
+			Escribir 'fiar producto';
+	FinSegun
+	
+FinAlgoritmo

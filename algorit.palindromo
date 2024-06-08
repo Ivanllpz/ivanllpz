@@ -1,0 +1,16 @@
+Algoritmo palindromo
+	escribir 'escribe la palabra'
+	Leer palabra
+	long <- Longitud(palabra)
+	inversa <- ''
+	Para i<-long hasta 1 con paso -1 Hacer
+		inversa <- inversa+Subcadena(palabra,i,i)
+		
+	FinPara
+	Escribir inversa
+	si palabra=inversa Entonces
+		Escribir 'es correcta la palabra y es un palindromo'
+	SiNo
+		Escribir 'no es una palabra palindroma, error vuelvelo a intentar'
+	FinSi
+FinAlgoritmo
