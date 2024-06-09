@@ -5,17 +5,17 @@
 		Escribir "Ingrese la longitud del lado del cubo:"
 		Leer lado
 		
-		// Calculando el área de una cara del cubo
+		// Calculando el Ã¡rea de una cara del cubo
 		area <- lado * lado
-		Escribir "El área de una cara del cubo es: ", area
+		Escribir "El Ã¡rea de una cara del cubo es: ", area
 		
 		// Calculando el volumen del cubo
 		volumen <- lado ^ 3
 		Escribir "El volumen del cubo es: ", volumen
 		
-		// Calculando el perímetro de una cara del cubo
+		// Calculando el perÃ­metro de una cara del cubo
 		perimetro <- lado * 4
-		Escribir "El perímetro de una cara del cubo es: ", perimetro
+		Escribir "El perÃ­metro de una cara del cubo es: ", perimetro
 FinAlgoritmo
 
 
