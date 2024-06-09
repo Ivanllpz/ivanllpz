@@ -1,27 +1,27 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Declaración de variables
+    // DeclaraciÃ³n de variables
     Definir lado, apotema, area, perimetro, volumen como Real
 	
-    // Asignación de valores
-    Escribir "Ingrese la longitud del lado del pentágono:"
+    // AsignaciÃ³n de valores
+    Escribir "Ingrese la longitud del lado del pentÃ¡gono:"
     Leer lado
-    Escribir "Ingrese la longitud de la apotema del pentágono:"
+    Escribir "Ingrese la longitud de la apotema del pentÃ¡gono:"
     Leer apotema
 	
-    // Cálculo del área
+    // CÃ¡lculo del Ã¡rea
     area <- (5 * lado * apotema) / 2
-    Escribir "El área del pentágono es:", area
+    Escribir "El Ã¡rea del pentÃ¡gono es:", area
 	
-    // Cálculo del perímetro
+    // CÃ¡lculo del perÃ­metro
     perimetro <- 5 * lado
-    Escribir "El perímetro del pentágono es:", perimetro
+    Escribir "El perÃ­metro del pentÃ¡gono es:", perimetro
 	
-    // Cálculo del volumen (solo si se especifica una altura)
-    Escribir "Ingrese la altura del pentágono (si no conoce la altura, ingrese 0):"
+    // CÃ¡lculo del volumen (solo si se especifica una altura)
+    Escribir "Ingrese la altura del pentÃ¡gono (si no conoce la altura, ingrese 0):"
     Leer altura
     Si altura > 0 Entonces
         volumen <- (5 * lado * apotema * altura) / 2
-        Escribir "El volumen del pentágono es:", volumen
+        Escribir "El volumen del pentÃ¡gono es:", volumen
     FinSi
 
 FinAlgoritmo
