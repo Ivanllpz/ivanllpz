@@ -1,5 +1,5 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Definición de variables
+    // DefiniciÃ³n de variables
     Definir radio, altura, generatriz, areaLateral, areaBase, areaTotal, volumen, perimetroBase Como Real;
     
     // Solicitar medidas al usuario
@@ -10,27 +10,27 @@ Algoritmo CalcularAreaVolumenYPerimetro
     Escribir "Ingrese la generatriz del cilindro (lado inclinado):";
     Leer generatriz;
     
-    // Cálculo del área lateral
+    // CÃ¡lculo del Ã¡rea lateral
     areaLateral <- pi * radio * generatriz;
     
-    // Cálculo del área de la base
+    // CÃ¡lculo del Ã¡rea de la base
     areaBase <- pi * (radio^2);
     
-    // Cálculo del área total
+    // CÃ¡lculo del Ã¡rea total
     areaTotal <- areaLateral + 2 * areaBase;
     
-    // Cálculo del volumen
+    // CÃ¡lculo del volumen
     volumen <- pi * (radio^2) * altura;
     
-    // Cálculo del perímetro de la base
+    // CÃ¡lculo del perÃ­metro de la base
     perimetroBase <- 2 * pi * radio;
     
     // Mostrar resultados
-    Escribir "El área lateral del cilindro oblicuo es: ", areaLateral, " unidades cuadradas.";
-    Escribir "El área de la base del cilindro oblicuo es: ", areaBase, " unidades cuadradas.";
-    Escribir "El área total del cilindro oblicuo es: ", areaTotal, " unidades cuadradas.";
-    Escribir "El volumen del cilindro oblicuo es: ", volumen, " unidades cúbicas.";
-    Escribir "El perímetro de la base del cilindro oblicuo es: ", perimetroBase, " unidades.";
+    Escribir "El Ã¡rea lateral del cilindro oblicuo es: ", areaLateral, " unidades cuadradas.";
+    Escribir "El Ã¡rea de la base del cilindro oblicuo es: ", areaBase, " unidades cuadradas.";
+    Escribir "El Ã¡rea total del cilindro oblicuo es: ", areaTotal, " unidades cuadradas.";
+    Escribir "El volumen del cilindro oblicuo es: ", volumen, " unidades cÃºbicas.";
+    Escribir "El perÃ­metro de la base del cilindro oblicuo es: ", perimetroBase, " unidades.";
 FinAlgoritmo
 
 
