@@ -16,15 +16,15 @@ Algoritmo CalcularAreaVolumenYPerimetro
     Escribir "Introduce el lado 2 del trapecio (no paralelo a las bases):";
     Leer lado2;
 	
-    // Cálculos
+    // CÃ¡lculos
     areaBase := ((baseMenor + baseMayor) / 2) * alturaTrapezio;
     volumen := areaBase * alturaPrisma;
     areaLateral := (lado1 + lado2) * alturaPrisma + (baseMenor + baseMayor) * alturaPrisma;
     areaTotal := areaLateral + 2 * areaBase;
 	
     // Salida de resultados
-    Escribir "El área de la base es: ", areaBase;
+    Escribir "El Ã¡rea de la base es: ", areaBase;
     Escribir "El volumen del prisma es: ", volumen;
-    Escribir "El área lateral del prisma es: ", areaLateral;
-    Escribir "El área total del prisma es: ", areaTotal;
+    Escribir "El Ã¡rea lateral del prisma es: ", areaLateral;
+    Escribir "El Ã¡rea total del prisma es: ", areaTotal;
 FinAlgoritmo
