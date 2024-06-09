@@ -2,20 +2,20 @@ Algoritmo CalcularAreaVolumenYPerimetro
     // Definir variables
     Definir lado, apotema, area, perimetro Como Real;
     
-    // Solicitar la longitud del lado del octágono
-    Escribir "Introduce la longitud del lado del octágono:";
+    // Solicitar la longitud del lado del octÃ¡gono
+    Escribir "Introduce la longitud del lado del octÃ¡gono:";
     Leer lado;
     
-    // Solicitar la longitud del apotema del octágono
-    Escribir "Introduce la longitud del apotema del octágono:";
+    // Solicitar la longitud del apotema del octÃ¡gono
+    Escribir "Introduce la longitud del apotema del octÃ¡gono:";
     Leer apotema;
     
-    // Calcular el área usando la fórmula: A = (P * a) / 2, donde P es el perímetro y a es el apotema
+    // Calcular el Ã¡rea usando la fÃ³rmula: A = (P * a) / 2, donde P es el perÃ­metro y a es el apotema
     perimetro := 8 * lado;
     area := (perimetro * apotema) / 2;
     
     // Mostrar resultados
-    Escribir "El área del octágono es: ", area;
-    Escribir "El perímetro del octágono es: ", perimetro;
+    Escribir "El Ã¡rea del octÃ¡gono es: ", area;
+    Escribir "El perÃ­metro del octÃ¡gono es: ", perimetro;
 FinAlgoritmo
 
