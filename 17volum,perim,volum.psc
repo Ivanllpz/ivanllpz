@@ -3,16 +3,16 @@ Algoritmo CalcularAreaVolumenYPerimetro
     Definir lado, apotema, area, perimetro Como Real
 	
     // Solicitar los datos al usuario
-    Escribir "Ingrese la longitud del lado del pentágono:"
+    Escribir "Ingrese la longitud del lado del pentÃ¡gono:"
     Leer lado
-    Escribir "Ingrese la apotema del pentágono:"
+    Escribir "Ingrese la apotema del pentÃ¡gono:"
     Leer apotema
 	
-    // Calcular área y perímetro del pentágono
+    // Calcular Ã¡rea y perÃ­metro del pentÃ¡gono
     perimetro <- 5 * lado
     area <- (perimetro * apotema) / 2
 	
     // Mostrar resultados
-    Escribir "El área del pentágono es: ", area
-    Escribir "El perímetro del pentágono es: ", perimetro
+    Escribir "El Ã¡rea del pentÃ¡gono es: ", area
+    Escribir "El perÃ­metro del pentÃ¡gono es: ", perimetro
 FinAlgoritmo
