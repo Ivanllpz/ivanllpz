@@ -14,8 +14,8 @@ Algoritmo CalcularAreaVolumenYPerimetro
     volumen <- largo * ancho * alto
     perimetro <- 4 * (largo + ancho + alto)
 	
-    Escribir "El área del cuboide es:", area
+    Escribir "El Ã¡rea del cuboide es:", area
     Escribir "El volumen del cuboide es:", volumen
-    Escribir "El perímetro del cuboide es:", perimetro
+    Escribir "El perÃ­metro del cuboide es:", perimetro
 FinAlgoritmo
 
