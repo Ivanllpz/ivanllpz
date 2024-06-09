@@ -39,7 +39,7 @@ Algoritmo calculadora
 				Escribir 'Opcion no valida.'
 		FinSegun
 		
-		Escribir '¿Desea realizar otra operacion? (s/n):'
+		Escribir 'Â¿Desea realizar otra operacion? (s/n):'
 		Leer continuar
 	FinMientras
 	
