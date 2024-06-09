@@ -1,16 +1,16 @@
 Algoritmo CalcularAreaVolumenYPerimetro
     Definir radio, area, perimetro Como Real
     
-    Escribir "Ingrese el radio del círculo:"
+    Escribir "Ingrese el radio del cÃ­rculo:"
     Leer radio
     
-    // Cálculo del área del círculo
+    // CÃ¡lculo del Ã¡rea del cÃ­rculo
     area <- PI * radio * radio
     
-    // Cálculo del perímetro del círculo
+    // CÃ¡lculo del perÃ­metro del cÃ­rculo
     perimetro <- 2 * PI * radio
     
     // Mostrar resultados
-    Escribir "Área del círculo: ", area
-    Escribir "Perímetro del círculo: ", perimetro
+    Escribir "Ãrea del cÃ­rculo: ", area
+    Escribir "PerÃ­metro del cÃ­rculo: ", perimetro
 FinAlgoritmo
