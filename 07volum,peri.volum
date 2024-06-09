@@ -1,35 +1,35 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-	// Declaración de variables
+	// DeclaraciÃ³n de variables
 	Definir L, h, h_ap, A_base, P_base, A_lateral, A_total, Volumen Como Real
 	
-	// Solicitar al usuario la longitud del lado de la base y la altura de la pirámide
+	// Solicitar al usuario la longitud del lado de la base y la altura de la pirÃ¡mide
 	Escribir "Ingrese la longitud del lado de la base (L):"
 	Leer L
-	Escribir "Ingrese la altura de la pirámide (h):"
+	Escribir "Ingrese la altura de la pirÃ¡mide (h):"
 	Leer h
-	Escribir "Ingrese la altura apotema de la pirámide (h_ap):"
+	Escribir "Ingrese la altura apotema de la pirÃ¡mide (h_ap):"
 	Leer h_ap
 	
-	// Calcular el área de la base
+	// Calcular el Ã¡rea de la base
 	A_base = L^2
 	
-	// Calcular el perímetro de la base
+	// Calcular el perÃ­metro de la base
 	P_base = 4 * L
 	
-	// Calcular el área lateral
+	// Calcular el Ã¡rea lateral
 	A_lateral = 2 * L * h_ap
 	
-	// Calcular el área total
+	// Calcular el Ã¡rea total
 	A_total = A_base + A_lateral
 	
 	// Calcular el volumen
 	Volumen = (1/3) * A_base * h
 	
 	// Mostrar los resultados
-	Escribir "Área de la base:", A_base
-	Escribir "Perímetro de la base:", P_base
-	Escribir "Área lateral:", A_lateral
-	Escribir "Área total:", A_total
+	Escribir "Ãrea de la base:", A_base
+	Escribir "PerÃ­metro de la base:", P_base
+	Escribir "Ãrea lateral:", A_lateral
+	Escribir "Ãrea total:", A_total
 	Escribir "Volumen:", Volumen
 FinAlgoritmo
 
