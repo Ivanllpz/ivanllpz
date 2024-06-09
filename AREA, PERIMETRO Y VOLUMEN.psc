@@ -9,7 +9,7 @@ Algoritmo CalcularEsferaHueca
     areaSuperficial = 4 * 3.1416 * ((r1 * r1) - (r2 * r2))
     volumen = (4/3) * 3.1416 * ((r1 * r1 * r1) - (r2 * r2 * r2))
     
-    Escribir "El área superficial de la esfera hueca es:", areaSuperficial
+    Escribir "El Ã¡rea superficial de la esfera hueca es:", areaSuperficial
     Escribir "El volumen de la esfera hueca es:", volumen
     
 FinAlgoritmo
