@@ -16,11 +16,11 @@ Algoritmo CalcularAreaVolumenYPerimetro
     volumen <- (1 / 3) * 3.1416 * radio^2 * altura
     perimetro <- 2 * 3.1416 * radio
     
-    Escribir "El área de la base del cono es:", areaBase
-    Escribir "El área lateral del cono es:", areaLateral
-    Escribir "El área total del cono es:", areaTotal
+    Escribir "El Ã¡rea de la base del cono es:", areaBase
+    Escribir "El Ã¡rea lateral del cono es:", areaLateral
+    Escribir "El Ã¡rea total del cono es:", areaTotal
     Escribir "El volumen del cono es:", volumen
-    Escribir "El perímetro de la base del cono es:", perimetro
+    Escribir "El perÃ­metro de la base del cono es:", perimetro
     
 FinAlgoritmo
 
