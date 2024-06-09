@@ -1,20 +1,20 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Declaración de variables
+    // DeclaraciÃ³n de variables
     Definir lado, apotema, area, perimetro como Real
 	
-    // Asignación de valores
-    Escribir "Ingrese la longitud del lado del nonágono:"
+    // AsignaciÃ³n de valores
+    Escribir "Ingrese la longitud del lado del nonÃ¡gono:"
     Leer lado
-    Escribir "Ingrese la longitud de la apotema del nonágono:"
+    Escribir "Ingrese la longitud de la apotema del nonÃ¡gono:"
     Leer apotema
 	
-    // Cálculo del área
+    // CÃ¡lculo del Ã¡rea
     area <- (perimetro * apotema) / 2
-    Escribir "El área del nonágono es:", area
+    Escribir "El Ã¡rea del nonÃ¡gono es:", area
 	
-    // Cálculo del perímetro
+    // CÃ¡lculo del perÃ­metro
     perimetro <- lado * 9
-    Escribir "El perímetro del nonágono es:", perimetro
+    Escribir "El perÃ­metro del nonÃ¡gono es:", perimetro
 	
 FinAlgoritmo
 
