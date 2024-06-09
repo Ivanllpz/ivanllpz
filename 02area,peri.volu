@@ -1,0 +1,19 @@
+Algoritmo CalcularAreaVolumenYPerimetro
+    // Declaración de variables
+    Definir base, altura, area, perimetro como Real
+	
+    // Asignación de valores
+    Escribir "Ingrese la base del paralelogramo:"
+    Leer base
+    Escribir "Ingrese la altura del paralelogramo:"
+    Leer altura
+	
+    // Cálculo del área
+    area <- base * altura
+    Escribir "El área del paralelogramo es:", area
+	
+    // Cálculo del perímetro
+    perimetro <- 2 * (base + altura)
+    Escribir "El perímetro del paralelogramo es:", perimetro
+	
+FinAlgoritmo

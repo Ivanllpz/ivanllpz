@@ -1,0 +1,26 @@
+Algoritmo CalcularAreaVolumenYPerimetro
+    // Definir variables
+    Definir base, altura, profundidad, area, volumen, perimetro Como Real
+	
+    // Solicitar los datos al usuario
+    Escribir "Ingrese la base del rectángulo:"
+    Leer base
+    Escribir "Ingrese la altura del rectángulo:"
+    Leer altura
+    Escribir "Ingrese la profundidad del rectángulo:"
+    Leer profundidad
+	
+    // Calcular área, volumen y perímetro
+    area <- base * altura
+    volumen <- base * altura * profundidad
+    perimetro <- 2 * (base + altura)
+	
+    // Mostrar resultados
+    Escribir "El área del rectángulo es: ", area
+    Escribir "El volumen del rectángulo es: ", volumen
+    Escribir "El perímetro del rectángulo es: ", perimetro
+FinAlgoritmo
+
+
+
+
