@@ -2,26 +2,26 @@ Algoritmo CalcularAreaVolumenYPerimetro
     // Definir variables
     Definir radio, altura, area, volumen, perimetro Como Real;
     
-    // Solicitar el radio del semicírculo
-    Escribir "Introduce el radio del semicírculo:";
+    // Solicitar el radio del semicÃ­rculo
+    Escribir "Introduce el radio del semicÃ­rculo:";
     Leer radio;
     
     // Solicitar la altura para calcular el volumen del semicilindro
     Escribir "Introduce la altura del semicilindro:";
     Leer altura;
     
-    // Calcular el área del semicírculo usando la fórmula: A = (? * r^2) / 2
+    // Calcular el Ã¡rea del semicÃ­rculo usando la fÃ³rmula: A = (? * r^2) / 2
     area := (3.1416 * radio^2) / 2;
     
-    // Calcular el volumen del semicilindro usando la fórmula: V = (? * r^2 * h) / 2
+    // Calcular el volumen del semicilindro usando la fÃ³rmula: V = (? * r^2 * h) / 2
     volumen := (3.1416 * radio^2 * altura) / 2;
     
-    // Calcular el perímetro del semicírculo incluyendo el diámetro: P = ? * r + 2 * r
+    // Calcular el perÃ­metro del semicÃ­rculo incluyendo el diÃ¡metro: P = ? * r + 2 * r
     perimetro := (3.1416 * radio) + (2 * radio);
     
     // Mostrar resultados
-    Escribir "El área del semicírculo es: ", area;
+    Escribir "El Ã¡rea del semicÃ­rculo es: ", area;
     Escribir "El volumen del semicilindro es: ", volumen;
-    Escribir "El perímetro del semicírculo es: ", perimetro;
+    Escribir "El perÃ­metro del semicÃ­rculo es: ", perimetro;
 FinAlgoritmo
 
