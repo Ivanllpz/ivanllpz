@@ -15,9 +15,9 @@ Algoritmo CalcularAreaVolumenYPerimetro
     V = (1/3) * 3.1416 * h * (R1^2 + R2^2 + (R1 * R2))
     P = 2 * 3.1416 * (R1 + R2)
     
-    Escribir "El área lateral del cono truncado es:", AL
-    Escribir "El área total del cono truncado es:", AT
+    Escribir "El Ã¡rea lateral del cono truncado es:", AL
+    Escribir "El Ã¡rea total del cono truncado es:", AT
     Escribir "El volumen del cono truncado es:", V
-    Escribir "El perímetro de la base del cono truncado es:", P
+    Escribir "El perÃ­metro de la base del cono truncado es:", P
     
 FinAlgoritmo
