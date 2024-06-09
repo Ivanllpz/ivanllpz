@@ -14,11 +14,11 @@ Algoritmo CalcularAreaVolumenYPerimetro
     Escribir "Ingrese la longitud del segundo lado no paralelo:"
     Leer lado2
 	
-    // Calcular área y perímetro del trapecio
+    // Calcular Ã¡rea y perÃ­metro del trapecio
     area <- ((baseMayor + baseMenor) / 2) * altura
     perimetro <- baseMayor + baseMenor + lado1 + lado2
 	
     // Mostrar resultados
-    Escribir "El área del trapecio es: ", area
-    Escribir "El perímetro del trapecio es: ", perimetro
+    Escribir "El Ã¡rea del trapecio es: ", area
+    Escribir "El perÃ­metro del trapecio es: ", perimetro
 FinAlgoritmo
