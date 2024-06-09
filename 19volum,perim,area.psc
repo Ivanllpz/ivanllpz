@@ -3,14 +3,14 @@ Algoritmo CalcularAreaVolumenYPerimetro
     Definir lado, apotema, altura, perimetroBase, areaBase, volumen, areaLateral, areaTotal Como Real;
 	
     // Entrada de datos
-    Escribir "Introduce el lado del hexágono:";
+    Escribir "Introduce el lado del hexÃ¡gono:";
     Leer lado;
-    Escribir "Introduce la apotema del hexágono:";
+    Escribir "Introduce la apotema del hexÃ¡gono:";
     Leer apotema;
     Escribir "Introduce la altura del prisma:";
     Leer altura;
 	
-    // Cálculos
+    // CÃ¡lculos
     perimetroBase := lado * 6;
     areaBase := (perimetroBase * apotema) / 2;
     volumen := areaBase * altura;
@@ -18,9 +18,9 @@ Algoritmo CalcularAreaVolumenYPerimetro
     areaTotal := (areaLateral + 2 * areaBase);
 	
     // Salida de resultados
-    Escribir "El perímetro de la base es: ", perimetroBase;
-    Escribir "El área de la base es: ", areaBase;
+    Escribir "El perÃ­metro de la base es: ", perimetroBase;
+    Escribir "El Ã¡rea de la base es: ", areaBase;
     Escribir "El volumen del prisma es: ", volumen;
-    Escribir "El área lateral del prisma es: ", areaLateral;
-    Escribir "El área total del prisma es: ", areaTotal;
+    Escribir "El Ã¡rea lateral del prisma es: ", areaLateral;
+    Escribir "El Ã¡rea total del prisma es: ", areaTotal;
 FinAlgoritmo
