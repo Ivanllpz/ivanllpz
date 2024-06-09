@@ -8,14 +8,14 @@ Algoritmo CalcularAreaVolumenYPerimetro
     Escribir "Introduce el semieje menor (b) de la elipse:";
     Leer b;
     
-    // Calcular el área usando la fórmula: A = ? * a * b
+    // Calcular el Ã¡rea usando la fÃ³rmula: A = ? * a * b
     area := 3.1416 * a * b;
     
-    // Calcular el perímetro aproximado usando la fórmula de Ramanujan: P ? ? * (3*(a+b) - sqrt((3*a+b)*(a+3*b)))
+    // Calcular el perÃ­metro aproximado usando la fÃ³rmula de Ramanujan: P ? ? * (3*(a+b) - sqrt((3*a+b)*(a+3*b)))
     perimetro := 3.1416 * (3*(a+b) - Raiz((3*a+b)*(a+3*b)));
     
     // Mostrar resultados
-    Escribir "El área de la elipse es: ", area;
-    Escribir "El perímetro aproximado de la elipse es: ", perimetro;
+    Escribir "El Ã¡rea de la elipse es: ", area;
+    Escribir "El perÃ­metro aproximado de la elipse es: ", perimetro;
 FinAlgoritmo
 
