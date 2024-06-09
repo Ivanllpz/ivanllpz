@@ -2,7 +2,7 @@ Algoritmo CalcularAreaVolumenYPerimetro
     // Definir variables
     Definir a, b, c Como Real;
     Definir area, volumen Como Real;
-    Definir p Como Real; // Aproximación para el cálculo de la superficie
+    Definir p Como Real; // AproximaciÃ³n para el cÃ¡lculo de la superficie
     
     // Solicitar las longitudes de los semiejes al usuario
     Escribir "Ingrese la longitud del semieje mayor (a):";
@@ -15,11 +15,11 @@ Algoritmo CalcularAreaVolumenYPerimetro
     // Calcular el volumen del elipsoide
     volumen <- (4/3) * PI * a * b * c;
     
-    // Aproximación para el cálculo de la superficie
+    // AproximaciÃ³n para el cÃ¡lculo de la superficie
     p <- 1.6075;
     area <- 4 * PI * ((a^p * b^p + a^p * c^p + b^p * c^p)/3)^(1/p);
     
     // Mostrar resultados
-    Escribir "El área de la superficie del elipsoide es: ", area;
+    Escribir "El Ã¡rea de la superficie del elipsoide es: ", area;
     Escribir "El volumen del elipsoide es: ", volumen;
 FinAlgoritmo
