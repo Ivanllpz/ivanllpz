@@ -1,27 +1,27 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Definir variables para el radio, ángulo y altura (en caso de volumen 3D)
+    // Definir variables para el radio, Ã¡ngulo y altura (en caso de volumen 3D)
     Definir radio, angulo, altura Como Real
     
-    // Pedir al usuario que ingrese los valores del radio, ángulo y altura
+    // Pedir al usuario que ingrese los valores del radio, Ã¡ngulo y altura
     Escribir "Ingrese el radio del sector circular:"
     Leer radio
-    Escribir "Ingrese el ángulo del sector en radianes:"
+    Escribir "Ingrese el Ã¡ngulo del sector en radianes:"
     Leer angulo
     Escribir "Ingrese la altura del sector (para volumen de cilindro):"
     Leer altura
     
-    // Calcular el área del sector
+    // Calcular el Ã¡rea del sector
     Definir area Como Real
     area <- (angulo / (2 * PI())) * (radio^2)
-    Escribir "El área del sector circular es: ", area
+    Escribir "El Ã¡rea del sector circular es: ", area
     
     // Calcular el volumen del sector (si es un cilindro)
     Definir volumen Como Real
     volumen <- area * altura
     Escribir "El volumen del sector circular (cilindro) es: ", volumen
     
-    // Calcular el perímetro del sector
+    // Calcular el perÃ­metro del sector
     Definir perimetro Como Real
     perimetro <- (2 * PI() * radio * (angulo / (2 * PI()))) + (2 * radio)
-    Escribir "El perímetro del sector circular es: ", perimetro
+    Escribir "El perÃ­metro del sector circular es: ", perimetro
 FinAlgoritmo
