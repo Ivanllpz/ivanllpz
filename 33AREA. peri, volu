@@ -1,22 +1,50 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Declaraci�n de variables
+    // Declaración de variables
     Definir arista, area, volumen, perimetro, raiz_tres como Real
 	
-    // Asignaci�n de valores
-    raiz_tres <- 1.732 // Valor aproximado de la ra�z cuadrada de 3
+    // Asignación de valores
+    raiz_tres <- 1.732 // Valor aproximado de la raíz cuadrada de 3
     Escribir "Ingrese la longitud de la arista del octaedro:"
     Leer arista
 	
-    // C�lculo del per�metro de la base
+    // Cálculo del perímetro de la base
     perimetro <- 3 * arista
-    Escribir "El per�metro de la base del octaedro es:", perimetro
+    Escribir "El perímetro de la base del octaedro es:", perimetro
 	
-    // C�lculo del �rea
+    // Cálculo del área
     area <- 2 * raiz_tres * arista * arista
-    Escribir "El �rea del octaedro es:", area
+    Escribir "El área del octaedro es:", area
 	
-    // C�lculo del volumen
+    // Cálculo del volumen
     volumen <- (raiz_tres / 3) * arista * arista * arista
     Escribir "El volumen del octaedro es:", volumen
 	
 FinAlgoritmo
+
+
+
+
+CODIGO A PYTHON:
+# Declaración de variables
+arista = 0.0
+area = 0.0
+volumen = 0.0
+perimetro = 0.0
+raiz_tres = 1.732  # Valor aproximado de la raíz cuadrada de 3
+
+# Asignación de valores
+print("Ingrese la longitud de la arista del octaedro:")
+arista = float(input())
+
+# Cálculo del perímetro de la base
+perimetro = 3 * arista
+print("El perímetro de la base del octaedro es:", perimetro)
+
+# Cálculo del área
+area = 2 * raiz_tres * arista * arista
+print("El área del octaedro es:", area)
+
+# Cálculo del volumen
+volumen = (raiz_tres / 3) * arista * arista * arista
+print("El volumen del octaedro es:", volumen)
+
