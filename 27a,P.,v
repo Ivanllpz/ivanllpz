@@ -1,23 +1,48 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Definici�n de variables
+    // Definición de variables
     Definir arista, area, volumen, perimetro Como Real;
     
     // Solicitar la longitud de la arista al usuario
     Escribir "Ingrese la longitud de la arista del icosaedro regular:";
     Leer arista;
     
-    // C�lculo del per�metro
+    // Cálculo del perímetro
     perimetro <- 30 * arista;
     
-    // C�lculo del �rea
+    // Cálculo del área
     area <- 5 * (raiz(3)) * (arista^2);
     
-    // C�lculo del volumen
+    // Cálculo del volumen
     volumen <- (5/12) * (3 + raiz(5)) * (arista^3);
     
     // Mostrar resultados
-    Escribir "El per�metro del icosaedro regular es: ", perimetro, " unidades.";
-    Escribir "El �rea del icosaedro regular es: ", area, " unidades cuadradas.";
-    Escribir "El volumen del icosaedro regular es: ", volumen, " unidades c�bicas.";
+    Escribir "El perímetro del icosaedro regular es: ", perimetro, " unidades.";
+    Escribir "El área del icosaedro regular es: ", area, " unidades cuadradas.";
+    Escribir "El volumen del icosaedro regular es: ", volumen, " unidades cúbicas.";
 	FinAlgoritmo
 
+
+
+
+CODIGO A PYTHON:
+import math
+
+# Definición de variables
+arista = float(input("Ingrese la longitud de la arista del icosaedro regular: "))
+area = 0.0
+volumen = 0.0
+perimetro = 0.0
+
+# Cálculo del perímetro
+perimetro = 30 * arista
+
+# Cálculo del área
+area = 5 * math.sqrt(3) * (arista ** 2)
+
+# Cálculo del volumen
+volumen = (5 / 12) * (3 + math.sqrt(5)) * (arista ** 3)
+
+# Mostrar resultados
+print("El perímetro del icosaedro regular es:", perimetro, "unidades.")
+print("El área del icosaedro regular es:", area, "unidades cuadradas.")
+print("El volumen del icosaedro regular es:", volumen, "unidades cúbicas.")
