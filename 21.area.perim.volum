@@ -1,16 +1,37 @@
 Algoritmo CalcularAreaVolumenYPerimetro
     Definir radio, area, perimetro Como Real
     
-    Escribir "Ingrese el radio del c�rculo:"
+    Escribir "Ingrese el radio del círculo:"
     Leer radio
     
-    // C�lculo del �rea del c�rculo
+    // Cálculo del área del círculo
     area <- PI * radio * radio
     
-    // C�lculo del per�metro del c�rculo
+    // Cálculo del perímetro del círculo
     perimetro <- 2 * PI * radio
     
     // Mostrar resultados
-    Escribir "�rea del c�rculo: ", area
-    Escribir "Per�metro del c�rculo: ", perimetro
+    Escribir "Área del círculo: ", area
+    Escribir "Perímetro del círculo: ", perimetro
 FinAlgoritmo
+
+
+
+
+CODIGO A PYTHON:
+import math
+
+def calcular_area_volumen_y_perimetro():
+    radio = float(input("Ingrese el radio del círculo: "))
+    
+    # Cálculo del área del círculo
+    area = math.pi * radio * radio
+    
+    # Cálculo del perímetro del círculo
+    perimetro = 2 * math.pi * radio
+    
+    # Mostrar resultados
+    print("Área del círculo:", area)
+    print("Perímetro del círculo:", perimetro)
+
+calcular_area_volumen_y_perimetro()
