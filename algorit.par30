@@ -1,8 +1,0 @@
-numero1 = int(input('Ingrese un número de 2 dígitos: '))
-if 10 < numero1 < 99:
-    if numero1 % 2 == 0 and numero1 < 30:
-        print('El número es par y menor a 30.')
-    else:
-        print('El número ingresado no es menor a 30.')
-else:
-    print('El número ingresado no es de 2 dígitos.')
