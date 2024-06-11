@@ -1,22 +1,41 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Definici�n de variables
+    // Definición de variables
     Definir lado, apotema, altura, perimetro, area, volumen Como Real;
     
     // Entrada de datos
-    Escribir "Ingrese la longitud del lado del Non�gono:";
+    Escribir "Ingrese la longitud del lado del Nonágono:";
     Leer lado;
-    Escribir "Ingrese la apotema del Non�gono:";
+    Escribir "Ingrese la apotema del Nonágono:";
     Leer apotema;
     Escribir "Ingrese la altura del prisma (para el volumen):";
     Leer altura;
     
-    // C�lculos
+    // Cálculos
     perimetro := lado * 9;
     area := perimetro * apotema / 2;
     volumen := area * altura;
     
     // Salida de resultados
-    Escribir "El per�metro del Non�gono es: ", perimetro;
-    Escribir "El �rea del Non�gono es: ", area;
-    Escribir "El volumen del prisma con base de Non�gono es: ", volumen;
+    Escribir "El perímetro del Nonágono es: ", perimetro;
+    Escribir "El área del Nonágono es: ", area;
+    Escribir "El volumen del prisma con base de Nonágono es: ", volumen;
 FinAlgoritmo
+
+
+
+
+CODIGO A PYTHON:
+# Definición de variables
+lado = float(input("Ingrese la longitud del lado del Nonágono: "))
+apotema = float(input("Ingrese la apotema del Nonágono: "))
+altura = float(input("Ingrese la altura del prisma (para el volumen): "))
+
+# Cálculos
+perimetro = lado * 9
+area = perimetro * apotema / 2
+volumen = area * altura
+
+# Salida de resultados
+print("El perímetro del Nonágono es:", perimetro)
+print("El área del Nonágono es:", area)
+print("El volumen del prisma con base de Nonágono es:", volumen)
