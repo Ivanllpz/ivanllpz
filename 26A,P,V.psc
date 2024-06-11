@@ -15,9 +15,30 @@ Algoritmo CalcularAreaVolumenYPerimetro
     V = (1/3) * 3.1416 * h * (R1^2 + R2^2 + (R1 * R2))
     P = 2 * 3.1416 * (R1 + R2)
     
-    Escribir "El �rea lateral del cono truncado es:", AL
-    Escribir "El �rea total del cono truncado es:", AT
+    Escribir "El área lateral del cono truncado es:", AL
+    Escribir "El área total del cono truncado es:", AT
     Escribir "El volumen del cono truncado es:", V
-    Escribir "El per�metro de la base del cono truncado es:", P
+    Escribir "El perímetro de la base del cono truncado es:", P
     
 FinAlgoritmo
+
+
+
+CODIGO A PYTHON:
+# Definir variables
+R1 = float(input("Ingrese el radio de la base superior del cono truncado (R1): "))
+R2 = float(input("Ingrese el radio de la base inferior del cono truncado (R2): "))
+L = float(input("Ingrese la generatriz del cono truncado (L): "))
+h = float(input("Ingrese la altura del cono truncado (h): "))
+
+# Calcular áreas y volúmenes
+AL = 3.1416 * (R1 + R2) * L
+AT = AL + 3.1416 * (R1**2 + R2**2)
+V = (1/3) * 3.1416 * h * (R1**2 + R2**2 + (R1 * R2))
+P = 2 * 3.1416 * (R1 + R2)
+
+# Mostrar resultados
+print("El área lateral del cono truncado es:", AL)
+print("El área total del cono truncado es:", AT)
+print("El volumen del cono truncado es:", V)
+print("El perímetro de la base del cono truncado es:", P)
