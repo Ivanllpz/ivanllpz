@@ -1,23 +1,42 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Definici�n de variables
+    // Definición de variables
     Definir lado, apotema, altura, perimetro, area, volumen Como Real;
     
     // Entrada de datos
-    Escribir "Ingrese la longitud del lado del Hept�gono:";
+    Escribir "Ingrese la longitud del lado del Heptágono:";
     Leer lado;
-    Escribir "Ingrese la apotema del Hept�gono:";
+    Escribir "Ingrese la apotema del Heptágono:";
     Leer apotema;
     Escribir "Ingrese la altura del prisma (para el volumen):";
     Leer altura;
     
-    // C�lculos
+    // Cálculos
     perimetro := lado * 7;
     area := perimetro * apotema / 2;
     volumen := area * altura;
     
     // Salida de resultados
-    Escribir "El per�metro del Hept�gono es: ", perimetro;
-    Escribir "El �rea del Hept�gono es: ", area;
-    Escribir "El volumen del prisma con base de Hept�gono es: ", volumen;
+    Escribir "El perímetro del Heptágono es: ", perimetro;
+    Escribir "El área del Heptágono es: ", area;
+    Escribir "El volumen del prisma con base de Heptágono es: ", volumen;
 FinAlgoritmo
 
+
+
+
+
+CODIGO A PYTHON:
+# Definición de variables
+lado = float(input("Ingrese la longitud del lado del Heptágono: "))
+apotema = float(input("Ingrese la apotema del Heptágono: "))
+altura = float(input("Ingrese la altura del prisma (para el volumen): "))
+
+# Cálculos
+perimetro = lado * 7
+area = perimetro * apotema / 2
+volumen = area * altura
+
+# Salida de resultados
+print("El perímetro del Heptágono es:", perimetro)
+print("El área del Heptágono es:", area)
+print("El volumen del prisma con base de Heptágono es:", volumen)
