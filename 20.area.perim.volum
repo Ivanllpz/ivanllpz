@@ -3,23 +3,42 @@ Algoritmo CalcularAreaVolumenYPerimetro
     Definir base, altura, profundidad, area, volumen, perimetro Como Real
 	
     // Solicitar los datos al usuario
-    Escribir "Ingrese la base del rect�ngulo:"
+    Escribir "Ingrese la base del rectángulo:"
     Leer base
-    Escribir "Ingrese la altura del rect�ngulo:"
+    Escribir "Ingrese la altura del rectángulo:"
     Leer altura
-    Escribir "Ingrese la profundidad del rect�ngulo:"
+    Escribir "Ingrese la profundidad del rectángulo:"
     Leer profundidad
 	
-    // Calcular �rea, volumen y per�metro
+    // Calcular área, volumen y perímetro
     area <- base * altura
     volumen <- base * altura * profundidad
     perimetro <- 2 * (base + altura)
 	
     // Mostrar resultados
-    Escribir "El �rea del rect�ngulo es: ", area
-    Escribir "El volumen del rect�ngulo es: ", volumen
-    Escribir "El per�metro del rect�ngulo es: ", perimetro
+    Escribir "El área del rectángulo es: ", area
+    Escribir "El volumen del rectángulo es: ", volumen
+    Escribir "El perímetro del rectángulo es: ", perimetro
 FinAlgoritmo
+
+
+
+
+CODIGO A PYTHON:
+# Definir variables
+base = float(input("Ingrese la base del rectángulo: "))
+altura = float(input("Ingrese la altura del rectángulo: "))
+profundidad = float(input("Ingrese la profundidad del rectángulo: "))
+
+# Calcular área, volumen y perímetro
+area = base * altura
+volumen = base * altura * profundidad
+perimetro = 2 * (base + altura)
+
+# Mostrar resultados
+print("El área del rectángulo es:", area)
+print("El volumen del rectángulo es:", volumen)
+print("El perímetro del rectángulo es:", perimetro)
 
 
 
