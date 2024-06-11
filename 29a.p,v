@@ -1,23 +1,46 @@
 Algoritmo CalcularAreaVolumenYPerimetro
-    // Definici�n de variables
+    // Definición de variables
     Definir lado, radio, apotema, perimetro, area Como Real;
     
     // Solicitar medidas al usuario
-    Escribir "Ingrese la longitud del lado del pent�gono interior:";
+    Escribir "Ingrese la longitud del lado del pentágono interior:";
     Leer lado;
-    Escribir "Ingrese el radio del pent�gono (distancia del centro a un v�rtice):";
+    Escribir "Ingrese el radio del pentágono (distancia del centro a un vértice):";
     Leer radio;
     
-    // C�lculo del apotema del pent�gono interior
+    // Cálculo del apotema del pentágono interior
     apotema <- radio * cos(54 * pi / 180);
     
-    // C�lculo del per�metro del pent�gono interior
+    // Cálculo del perímetro del pentágono interior
     perimetro <- 5 * lado;
     
-    // C�lculo del �rea del pent�gono interior
+    // Cálculo del área del pentágono interior
     area <- (perimetro * apotema) / 2;
     
     // Mostrar resultados
-    Escribir "El per�metro de la estrella de cinco puntas es: ", perimetro, " unidades.";
-    Escribir "El �rea de la estrella de cinco puntas es: ", area, " unidades cuadradas.";
+    Escribir "El perímetro de la estrella de cinco puntas es: ", perimetro, " unidades.";
+    Escribir "El área de la estrella de cinco puntas es: ", area, " unidades cuadradas.";
 FinAlgoritmo
+
+
+
+
+CODIGO A PYTHON:
+import math
+
+# Definición de variables
+lado = float(input("Ingrese la longitud del lado del pentágono interior: "))
+radio = float(input("Ingrese el radio del pentágono (distancia del centro a un vértice): "))
+
+# Cálculo del apotema del pentágono interior
+apotema = radio * math.cos(54 * math.pi / 180)
+
+# Cálculo del perímetro del pentágono interior
+perimetro = 5 * lado
+
+# Cálculo del área del pentágono interior
+area = (perimetro * apotema) / 2
+
+# Mostrar resultados
+print("El perímetro de la estrella de cinco puntas es:", perimetro, "unidades.")
+print("El área de la estrella de cinco puntas es:", area, "unidades cuadradas.")
