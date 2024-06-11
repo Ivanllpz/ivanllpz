@@ -1,0 +1,18 @@
+Algoritmo CalcularAreaVolumenYPerimetro
+	Definir lado, area, volumen, perimetro Como Real
+	
+	Escribir "Ingrese la longitud del lado del cuadrado:"
+	Leer lado
+	
+	// Calculando el área de una cara del cuadrado
+	area <- lado * lado
+	Escribir "El área de una cara del cuadrado es: ", area
+	
+	// Calculando el volumen del cuadrado
+	volumen <- lado ^ 4
+	Escribir "El volumen del cuadrado es: ", volumen
+	
+	// Calculando el perímetro de una cara del cuadrado
+	perimetro <- lado * 4
+	Escribir "El perímetro de una cara del cuadrado es: ", perimetro
+FinAlgoritmo

@@ -1,0 +1,27 @@
+Algoritmo CalcularAreaVolumenYPerimetro
+    // Definir variables
+    Definir diagonalMayor, diagonalMenor, lado, altura, area, volumen, perimetro Como Real
+	
+    // Solicitar los datos al usuario
+    Escribir "Ingrese la diagonal mayor del rombo:"
+    Leer diagonalMayor
+    Escribir "Ingrese la diagonal menor del rombo:"
+    Leer diagonalMenor
+    Escribir "Ingrese la longitud de un lado del rombo:"
+    Leer lado
+    Escribir "Ingrese la altura de la pirámide (desde la base hasta el vértice):"
+    Leer altura
+	
+    // Calcular área y perímetro del rombo
+    area <- (diagonalMayor * diagonalMenor) / 2
+    perimetro <- 4 * lado
+	
+    // Calcular volumen de la pirámide con base de rombo
+    volumen <- (area * altura) / 3
+	
+    // Mostrar resultados
+    Escribir "El área del rombo es: ", area
+    Escribir "El volumen de la pirámide con base de rombo es: ", volumen
+    Escribir "El perímetro del rombo es: ", perimetro
+FinAlgoritmo
+

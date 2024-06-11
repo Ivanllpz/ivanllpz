@@ -1,0 +1,23 @@
+Algoritmo CalcularAreaVolumenYPerimetro
+    // Definición de variables
+    Definir lado, radio, apotema, perimetro, area Como Real;
+    
+    // Solicitar medidas al usuario
+    Escribir "Ingrese la longitud del lado del pentágono interior:";
+    Leer lado;
+    Escribir "Ingrese el radio del pentágono (distancia del centro a un vértice):";
+    Leer radio;
+    
+    // Cálculo del apotema del pentágono interior
+    apotema <- radio * cos(54 * pi / 180);
+    
+    // Cálculo del perímetro del pentágono interior
+    perimetro <- 5 * lado;
+    
+    // Cálculo del área del pentágono interior
+    area <- (perimetro * apotema) / 2;
+    
+    // Mostrar resultados
+    Escribir "El perímetro de la estrella de cinco puntas es: ", perimetro, " unidades.";
+    Escribir "El área de la estrella de cinco puntas es: ", area, " unidades cuadradas.";
+FinAlgoritmo

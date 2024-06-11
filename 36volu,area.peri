@@ -1,0 +1,23 @@
+Algoritmo CalcularAreaVolumenYPerimetro
+    // Definición de variables
+    Definir lado, apotema, altura, perimetro, area, volumen Como Real;
+    
+    // Entrada de datos
+    Escribir "Ingrese la longitud del lado del Heptágono:";
+    Leer lado;
+    Escribir "Ingrese la apotema del Heptágono:";
+    Leer apotema;
+    Escribir "Ingrese la altura del prisma (para el volumen):";
+    Leer altura;
+    
+    // Cálculos
+    perimetro := lado * 7;
+    area := perimetro * apotema / 2;
+    volumen := area * altura;
+    
+    // Salida de resultados
+    Escribir "El perímetro del Heptágono es: ", perimetro;
+    Escribir "El área del Heptágono es: ", area;
+    Escribir "El volumen del prisma con base de Heptágono es: ", volumen;
+FinAlgoritmo
+
