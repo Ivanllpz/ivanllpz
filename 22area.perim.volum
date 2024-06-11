@@ -1,23 +1,43 @@
 Algoritmo CalcularAreaVolumenYPerimetro
     Definir base, altura, lado1, lado2, lado3, area, perimetro Como Real
 	
-    Escribir "Ingrese la base del tri�ngulo:"
+    Escribir "Ingrese la base del triángulo:"
     Leer base
-    Escribir "Ingrese la altura del tri�ngulo:"
+    Escribir "Ingrese la altura del triángulo:"
     Leer altura
-    Escribir "Ingrese la longitud del primer lado del tri�ngulo:"
+    Escribir "Ingrese la longitud del primer lado del triángulo:"
     Leer lado1
-    Escribir "Ingrese la longitud del segundo lado del tri�ngulo:"
+    Escribir "Ingrese la longitud del segundo lado del triángulo:"
     Leer lado2
-    Escribir "Ingrese la longitud del tercer lado del tri�ngulo:"
+    Escribir "Ingrese la longitud del tercer lado del triángulo:"
     Leer lado3
 	
-    // Calculando el �rea del tri�ngulo
+    // Calculando el área del triángulo
     area <- (base * altura) / 2
-    Escribir "El �rea del tri�ngulo es: ", area
+    Escribir "El área del triángulo es: ", area
 	
-    // Calculando el per�metro del tri�ngulo
+    // Calculando el perímetro del triángulo
     perimetro <- lado1 + lado2 + lado3
-    Escribir "El per�metro del tri�ngulo es: ", perimetro
+    Escribir "El perímetro del triángulo es: ", perimetro
 FinAlgoritmo
 
+
+
+
+CODIGO A PYTHON:
+# Algoritmo CalcularAreaVolumenYPerimetro
+
+# Definir variables
+base = float(input("Ingrese la base del triángulo: "))
+altura = float(input("Ingrese la altura del triángulo: "))
+lado1 = float(input("Ingrese la longitud del primer lado del triángulo: "))
+lado2 = float(input("Ingrese la longitud del segundo lado del triángulo: "))
+lado3 = float(input("Ingrese la longitud del tercer lado del triángulo: "))
+
+# Calculando el área del triángulo
+area = (base * altura) / 2
+print("El área del triángulo es:", area)
+
+# Calculando el perímetro del triángulo
+perimetro = lado1 + lado2 + lado3
+print("El perímetro del triángulo es:", perimetro)
